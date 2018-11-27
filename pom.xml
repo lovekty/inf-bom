@@ -6,7 +6,7 @@
 
     <groupId>me.tony</groupId>
     <artifactId>inf-bom</artifactId>
-    <version>${tony-inf-bom.version}</version>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -16,24 +16,6 @@
         <spring-boot.version>2.1.0.RELEASE</spring-boot.version>
         <plugin.maven-compiler.version>3.8.0</plugin.maven-compiler.version>
     </properties>
-
-    <profiles>
-        <profile>
-            <id>snapshot</id>
-            <properties>
-                <tony-inf-bom.version>1.0.0-SNAPSHOT</tony-inf-bom.version>
-            </properties>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-        </profile>
-        <profile>
-            <id>release</id>
-            <properties>
-                <tony-inf-bom.version>1.0.0</tony-inf-bom.version>
-            </properties>
-        </profile>
-    </profiles>
 
     <dependencyManagement>
         <dependencies>
