@@ -6,11 +6,11 @@
 
     <groupId>me.tonyirl</groupId>
     <artifactId>inf-bom</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
 
     <properties>
-        <stack.version>1.0.1</stack.version>
+        <stack.version>1.0.2</stack.version>
         <encoding>UTF-8</encoding>
         <project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
         <project.reporting.outputEncoding>${encoding}</project.reporting.outputEncoding>
